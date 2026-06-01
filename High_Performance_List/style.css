@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  padding: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
