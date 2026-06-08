@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: #f4f6f8;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.board {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.column {
+  width: 300px;
+  min-height: 400px;
+  background: #e3e7eb;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.column h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  cursor: grab;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.card:active {
+  cursor: grabbing;
+  opacity: 0.7;
+}
