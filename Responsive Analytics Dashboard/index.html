@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Analytics Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <aside class="sidebar">
+    <h2>DashPro</h2>
+    <a href="#">Overview</a>
+    <a href="#">Analytics</a>
+    <a href="#">Reports</a>
+    <a href="#">Settings</a>
+  </aside>
+
+  <main class="main">
+    <header class="header">
+      <h1>Analytics Dashboard</h1>
+      <button>Export Report</button>
+    </header>
+
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <h3>Total Users</h3>
+        <p>24,560</p>
+        <span>+12% this month</span>
+      </div>
+
+      <div class="kpi-card">
+        <h3>Revenue</h3>
+        <p>₹8,75,000</p>
+        <span>+8% this month</span>
+      </div>
+
+      <div class="kpi-card">
+        <h3>Orders</h3>
+        <p>1,245</p>
+        <span>-3% this month</span>
+      </div>
+
+      <div class="kpi-card">
+        <h3>Conversion</h3>
+        <p>6.8%</p>
+        <span>+2.1% this month</span>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <div class="chart-card">
+        <h2>Monthly Performance</h2>
+        <div class="bar-chart">
+          <div style="height: 60%"></div>
+          <div style="height: 80%"></div>
+          <div style="height: 45%"></div>
+          <div style="height: 90%"></div>
+          <div style="height: 70%"></div>
+          <div style="height: 55%"></div>
+        </div>
+      </div>
+
+      <div class="chart-card">
+        <h2>Traffic Sources</h2>
+        <ul class="traffic-list">
+          <li>Organic Search <span>45%</span></li>
+          <li>Social Media <span>30%</span></li>
+          <li>Direct <span>15%</span></li>
+          <li>Referral <span>10%</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="table-card">
+      <h2>Recent Transactions</h2>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Product</th>
+              <th>Amount</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Aman Sharma</td>
+              <td>Premium Plan</td>
+              <td>₹4,999</td>
+              <td><span class="success">Paid</span></td>
+            </tr>
+            <tr>
+              <td>Riya Singh</td>
+              <td>Basic Plan</td>
+              <td>₹999</td>
+              <td><span class="pending">Pending</span></td>
+            </tr>
+            <tr>
+              <td>Rahul Verma</td>
+              <td>Pro Plan</td>
+              <td>₹2,499</td>
+              <td><span class="success">Paid</span></td>
+            </tr>
+            <tr>
+              <td>Neha Gupta</td>
+              <td>Premium Plan</td>
+              <td>₹4,999</td>
+              <td><span class="failed">Failed</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
